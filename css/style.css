@@ -1,0 +1,332 @@
+
+.traveler{
+    background-color: #1c284e;
+    width: 100%;
+    height: 50px;
+}
+
+.headerblue {
+    float: left;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .headerblueright {
+    float: right;
+  }
+
+  .div2{
+    background-image: url(https://mixmap-elementor.travelerwp.com/wp-content/uploads/2019/02/img_hero_6.jpg);
+    width: 100%;
+    height: 540px;
+  }
+  
+  .oracion{
+    margin-top: 200px;
+  }
+  
+
+  .options-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .option-btn {
+    background-color: #eee;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px 5px 0 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .option-btn.active {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .option-content {
+    background-color: #eee;
+    border-radius: 0 5px 5px 5px;
+    padding: 20px;
+  }
+  
+  .option {
+    display: none;
+  }
+  
+  .option.active {
+    display: block;
+  }
+
+  .image-container{
+    display: flex;
+    justify-content: 100px;
+    
+  }
+  
+  .image-container1{
+    background-image: url("../imagen/image1.jpg");
+    margin-top: 100px;
+    margin-left: 30px;
+
+    margin-right: 20px;
+    height: 500px;
+    width: 700px;
+  }
+  .image-container2{
+    background-image: url("../imagen/image2.jpg");
+    margin-top: 100px;
+    margin-right: 20px;
+    width: 400px;
+  }
+  .image-container3{
+    background-image: url("../imagen/image3.jpg");
+    margin-top: 100px;
+    margin-right: 20px;
+    width: 400px;
+    
+  }
+
+  .btn {
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #ffffff;
+  }
+
+  .titulo{
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .texto{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    
+  }
+
+  .btn3{
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+
+  .top{
+    margin: 50px;
+
+  }
+
+
+
+
+  
+  .contenedor-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .fila {
+    display: flex;
+    flex-basis: 100%;
+
+  }
+  
+  .columna {
+    flex: 1;
+    margin: 10px;
+   
+  }
+
+  
+.ciudades{
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.tituloCiudad{
+  color: #ffffff;
+
+}
+  
+h1{
+  color: #ffffff;
+}
+
+h5{
+  color: #ffffff;
+}
+
+/* p{
+  color: #ffffff;
+} */
+figure {
+      position: relative;
+      text-align: center;
+  }
+  
+figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+.subcribe{
+  background-color: rgb(28, 112, 180);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.divfooter{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  background-color: #c9c7c7;
+  height: 300px;
+}
+
+.cajafooter{
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.cajafooter1{
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.cajafooter2{
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+.container3{
+  display: flex;
+  flex-basis: 100%;
+}
+
+.form-control{
+  width: 500px;
+}
+
+.pfooter{
+  font-size: 30px;
+}
+
+
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.containerFooter{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer{
+  /* background-color: #1c284e; */
+  padding: 80px 0;
+}
+
+.footer-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-links{
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-links h4{
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 25px;
+  font-weight: 500;
+  border-bottom: 2px solid #00C3FF;
+  display: inline-block;
+}
+
+.footer-links ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 15px;
+  transition: all, 3s ease;
+}
+.footer-links ul li a:hover{
+  color: #fff;
+  padding-left:6px;
+}
+
+ul{
+
+  list-style-type: none;
+
+}
+
+li{
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+.social-links a{
+  display:inline-block;
+
+  width: 40px;
+  background-color: rgb(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #FFFFFF;
+  transition: all .5s ease;
+}
+
+.social-link a:hover{
+  background-color: #00C3FF;
+}
+
+@media(max-width: 991px){
+  
+.footer-row{
+  text-align:center;
+}
+
+.footer-links{
+  width: 100px;
+}
+
+}
+
+
+  
+
+  
